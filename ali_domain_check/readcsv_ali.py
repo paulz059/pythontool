@@ -64,5 +64,3 @@ def process_files(download_dir):
     print(f"处理完成，结果已保存到: {output_file}")
 
 # 示例使用
-download_dir = "footbook/ali_domain_check/downloaded_csvs_20250324160302"
-process_files(download_dir)

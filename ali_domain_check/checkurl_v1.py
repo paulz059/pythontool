@@ -12,8 +12,7 @@ geckodriver_path = "browe/geckodriver"  # 例如：C:\\geckodriver.exe (Windows)
 # 创建新的下载文件夹
 def create_download_folder(base_dir):
     # 使用当前时间戳创建文件夹
-    folder_name = "downloaded_csvs_" + time.strftime("%Y%m%d%H%M%S")
-    download_dir = os.path.join(base_dir, folder_name)
+    download_dir = "downloaded_csvs_" + time.strftime("%Y%m%d%H%M%S")
     
     # 如果文件夹不存在，创建文件夹
     if not os.path.exists(download_dir):
