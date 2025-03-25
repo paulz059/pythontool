@@ -1,18 +1,2 @@
-checkurl_v1 
-修改 # 你的域名列表
-    domain_list = ["yb88yb.com",
-                    "db88db.com",
-                    "566mis.com",
-                    "vn77vn.com",
-                    "sg99sg.com",
-                    "yl99yl.com",] 
-運行後。會出現一個新資料夾包含域名的xlsx。
-
-
-
-
-readcsv_ali 
-修改成你新資料夾的路徑。
-download_dir = "/Users/winghonsau/Documents/footbook/ali_domain_check/downloaded_csvs_20250318134630"
-
-運行後 會有結果 filtered_result
+去domain.txt 加上要檢查域名, 一行一個. 
+執行checkurl_v1.py
